@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OTP</title>
+    <script src="2.js" defer></script>
+    <style>
+      body {
+        text-align: center;
+      }
+      .genrete {
+        width: 150px;
+        padding: 10px;
+        display: inline;
+        border: 1px solid black;
+        font-size: 20px;
+        font-weight: bolder;
+      }
+      .input {
+        margin-top: 20px;
+
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>OTP Validation</h1>
+      <form action="2.js">
+        <p class="genrete"><span id="gen" class="inner"></span></p>
+        <!-- <input type="" name="" id="gen" class="genrete" readonly /> -->
+        <input
+          type="button"
+          value="Refresh "
+          id="Refresh"
+          style="padding: 5px 10px"
+        />
+        <br />
+        <input
+          type="text"
+          name=""
+          id="input"
+          placeholder="Enter OTP"
+          class="input"
+        />
+        <input
+          type="button"
+          value="Submit"
+          id="Submit"
+          style="padding: 10px 15px"
+        />
+      </form>
+      <h4 id="text-result"></h4>
+    </div>
+  </body>
+</html>
